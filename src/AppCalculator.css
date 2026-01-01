@@ -1,0 +1,30 @@
+.app-calculator {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.app-calculator > hr {
+    display: block;
+    width: 100%;
+}
+
+.app-calculator > .app-calculator-pole {
+    display: flex;
+    column-gap: 0.5rem;
+    align-items: center;
+}
+
+.app-calculator > .app-calculator-przyciski {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-calculator > .app-calculator-przyciski > button {
+    width: 20%;
+}
+
+
+.app-calculator > .app-calculator-historia {
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,30 @@
+.app-calculation-history {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #333;
+}
+
+.app-calculation-history th,
+.app-calculation-history td {
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.app-calculation-history thead th {
+  font-weight: 600;
+  background-color: #f7f7f8;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.app-calculation-history tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.app-calculation-history tbody tr:hover {
+  background-color: #fafafa;
+}
+
+.app-calculation-history tbody tr:last-child {
+  border-bottom: none;
+}
